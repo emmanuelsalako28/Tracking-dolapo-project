@@ -1,0 +1,1857 @@
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 200;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_Lt.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_Lt.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: italic;
+    font-weight: 200;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_LtIt.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_LtIt.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_Rg.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_Rg.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_It.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_It.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_Bd.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_Bd.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_BdIt.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_BdIt.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: condensed;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_CdLt.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_CdLt.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 800;
+    font-stretch: condensed;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_CdBlk.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_W_CdBlk.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 200;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Arabic_W_Lt.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Arabic_W_Lt.woff") format("woff");
+    unicode-range: U+600-6FF, U+750-77F, U+8A0-8FF, U+FB50-FDFF, U+FE70-FEFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Arabic_W_Rg.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Arabic_W_Rg.woff") format("woff");
+    unicode-range: U+600-6FF, U+750-77F, U+8A0-8FF, U+FB50-FDFF, U+FE70-FEFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Arabic_W_Bd.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Arabic_W_Bd.woff") format("woff");
+    unicode-range: U+600-6FF, U+750-77F, U+8A0-8FF, U+FB50-FDFF, U+FE70-FEFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: condensed;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Arabic_W_CdLt.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Arabic_W_CdLt.woff") format("woff");
+    unicode-range: U+600-6FF, U+750-77F, U+8A0-8FF, U+FB50-FDFF, U+FE70-FEFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 800;
+    font-stretch: condensed;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Arabic_W_CdBlk.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Arabic_W_CdBlk.woff") format("woff");
+    unicode-range: U+600-6FF, U+750-77F, U+8A0-8FF, U+FB50-FDFF, U+FE70-FEFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 200;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Deliver_Viet_W_Lt.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_Lt.woff") format("woff");
+    unicode-range: U+1A0-1A1, U+1AF-1B0, U+1E00-1EFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: italic;
+    font-weight: 200;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_LtIt.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_LtIt.woff") format("woff");
+    unicode-range: U+1A0-1A1, U+1AF-1B0, U+1E00-1EFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_Rg.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_Rg.woff") format("woff");
+    unicode-range: U+1A0-1A1, U+1AF-1B0, U+1E00-1EFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_It.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_It.woff") format("woff");
+    unicode-range: U+1A0-1A1, U+1AF-1B0, U+1E00-1EFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_Bd.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_Bd.woff") format("woff");
+    unicode-range: U+1A0-1A1, U+1AF-1B0, U+1E00-1EFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_BdIt.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_BdIt.woff") format("woff");
+    unicode-range: U+1A0-1A1, U+1AF-1B0, U+1E00-1EFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: condensed;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_CdLt.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_CdLt.woff") format("woff");
+    unicode-range: U+1A0-1A1, U+1AF-1B0, U+1E00-1EFF;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Delivery";
+    font-style: normal;
+    font-weight: 800;
+    font-stretch: condensed;
+    src: url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_CdBlk.woff2") format("woff2"), url("../v2024-resources/fonts/delivery-v2.5/Delivery_Viet_W_CdBlk.woff") format("woff");
+    unicode-range: U+1A0-1A1, U+1AF-1B0, U+1E00-1EFF;
+    font-display: swap;
+}
+
+.flag {
+    background-image: url(../v2024-resources/img/flags/flagSprite60.png);
+    background-repeat: no-repeat;
+    background-size: 100% 49494%;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    box-sizing: content-box;
+}
+
+.flag.ch, .flag.np {
+    box-shadow: none!important
+}
+
+.flag.dz {
+    background-position: center 0.2287%
+}
+
+.flag.ao {
+    background-position: center 0.4524%
+}
+
+.flag.bj {
+    background-position: center 0.6721%
+}
+
+.flag.bw {
+    background-position: center 0.8958%
+}
+
+.flag.bf {
+    background-position: center 1.1162%
+}
+
+.flag.bi {
+    background-position: center 1.3379%
+}
+
+.flag.cm {
+    background-position: center 1.5589%
+}
+
+.flag.cv {
+    background-position: center 1.7805%
+}
+
+.flag.cf {
+    background-position: center 2.0047%
+}
+
+.flag.td {
+    background-position: center 2.2247%
+}
+
+.flag.cd {
+    background-position: left 2.4467%
+}
+
+.flag.dj {
+    background-position: left 2.6674%
+}
+
+.flag.eg {
+    background-position: center 2.8931%
+}
+
+.flag.gq {
+    background-position: center 3.1125%
+}
+
+.flag.er {
+    background-position: left 3.3325%
+}
+
+.flag.et {
+    background-position: center 3.5542%
+}
+
+.flag.ga {
+    background-position: center 3.7759%
+}
+
+.flag.gm {
+    background-position: center 4.0015%
+}
+
+.flag.gh {
+    background-position: center 4.2229%
+}
+
+.flag.gn {
+    background-position: center 4.441%
+}
+
+.flag.gw {
+    background-position: left 4.66663%
+}
+
+.flag.ci {
+    background-position: center 4.8844%
+}
+
+.flag.ke {
+    background-position: center 5.1061%
+}
+
+.flag.ls {
+    background-position: center 5.3298%
+}
+
+.flag.lr {
+    background-position: left 5.5495%
+}
+
+.flag.ly {
+    background-position: center 5.7712%
+}
+
+.flag.mg {
+    background-position: center 5.994%
+}
+
+.flag.mw {
+    background-position: center 6.2156%
+}
+
+.flag.ml {
+    background-position: center 6.4363%
+}
+
+.flag.mr {
+    background-position: center 6.658%
+}
+
+.flag.mu {
+    background-position: center 6.8805%
+}
+
+.flag.yt {
+    background-position: center 7.1038%
+}
+
+.flag.ma {
+    background-position: center 7.3231%
+}
+
+.flag.mz {
+    background-position: left 7.5448%
+}
+
+.flag.na {
+    background-position: left 7.7661%
+}
+
+.flag.ne {
+    background-position: center 7.98937%
+}
+
+.flag.ng {
+    background-position: center 8.2099%
+}
+
+.flag.cg {
+    background-position: center 8.4316%
+}
+
+.flag.re {
+    background-position: center 36.5875%
+}
+
+.flag.rw {
+    background-position: right 8.875%
+}
+
+.flag.sh {
+    background-position: center 9.0967%
+}
+
+.flag.st {
+    background-position: center 9.32237%
+}
+
+.flag.sn {
+    background-position: center 9.5426%
+}
+
+.flag.sc {
+    background-position: left 9.7628%
+}
+
+.flag.sl {
+    background-position: center 9.9845%
+}
+
+.flag.so {
+    background-position: center 10.2052%
+}
+
+.flag.za {
+    background-position: left 10.4269%
+}
+
+.flag.ss {
+    background-position: left 10.6486%
+}
+
+.flag.sd {
+    background-position: center 10.8703%
+}
+
+.flag.sr {
+    background-position: center 11.0945%
+}
+
+.flag.sz {
+    background-position: center 11.3135%
+}
+
+.flag.tg {
+    background-position: left 11.5354%
+}
+
+.flag.tn {
+    background-position: center 11.7593%
+}
+
+.flag.ug {
+    background-position: center 11.9799%
+}
+
+.flag.tz {
+    background-position: center 12.2005%
+}
+
+.flag.eh {
+    background-position: center 12.4222%
+}
+
+.flag.ye {
+    background-position: center 12.644%
+}
+
+.flag.zm {
+    background-position: center 12.8664%
+}
+
+.flag.zw {
+    background-position: left 13.0873%
+}
+
+.flag.ai {
+    background-position: center 13.309%
+}
+
+.flag.ag {
+    background-position: center 13.5307%
+}
+
+.flag.ar {
+    background-position: center 13.7524%
+}
+
+.flag.aw {
+    background-position: left 13.9741%
+}
+
+.flag.bs {
+    background-position: left 14.1958%
+}
+
+.flag.bb {
+    background-position: center 14.4175%
+}
+
+.flag.bq {
+    background-position: center 14.6415%
+}
+
+.flag.bz {
+    background-position: center 14.8609%
+}
+
+.flag.bm {
+    background-position: center 15.0826%
+}
+
+.flag.bo {
+    background-position: center 15.306%
+}
+
+.flag.vg {
+    background-position: center 15.528%
+}
+
+.flag.br {
+    background-position: center 15.7496%
+}
+
+.flag.ca {
+    background-position: center 15.9694%
+}
+
+.flag.ky {
+    background-position: center 16.1911%
+}
+
+.flag.cl {
+    background-position: left 16.4128%
+}
+
+.flag.co {
+    background-position: left 16.6345%
+}
+
+.flag.km {
+    background-position: center 16.8562%
+}
+
+.flag.cr {
+    background-position: center 17.0779%
+}
+
+.flag.cu {
+    background-position: left 17.2996%
+}
+
+.flag.cw, .flag.xc {
+    background-position: center 17.5213%
+}
+
+.flag.dm {
+    background-position: center 17.743%
+}
+
+.flag.do {
+    background-position: center 17.968%
+}
+
+.flag.ec {
+    background-position: center 18.1864%
+}
+
+.flag.sv {
+    background-position: center 18.4081%
+}
+
+.flag.fk {
+    background-position: center 18.6298%
+}
+
+.flag.gf {
+    background-position: center 18.8515%
+}
+
+.flag.gl {
+    background-position: left 19.0732%
+}
+
+.flag.gd {
+    background-position: center 19.2987%
+}
+
+.flag.gp {
+    background-position: center 36.5875%
+}
+
+.flag.gt {
+    background-position: center 19.7383%
+}
+
+.flag.gy {
+    background-position: center 19.96%
+}
+
+.flag.ht {
+    background-position: center 20.1817%
+}
+
+.flag.hn {
+    background-position: center 20.4034%
+}
+
+.flag.jm {
+    background-position: center 20.6241%
+}
+
+.flag.mq {
+    background-position: center 36.5875%
+}
+
+.flag.mx {
+    background-position: center 21.0685%
+}
+
+.flag.ms {
+    background-position: center 21.2902%
+}
+
+.flag.ni {
+    background-position: center 21.5119%
+}
+
+.flag.pa {
+    background-position: center 21.7336%
+}
+
+.flag.py {
+    background-position: center 21.9553%
+}
+
+.flag.pe {
+    background-position: center 22.177%
+}
+
+.flag.pr {
+    background-position: left 22.4002%
+}
+
+.flag.bl, .flag.xy {
+    background-position: center 22.6204%
+}
+
+.flag.kn {
+    background-position: center 22.8421%
+}
+
+.flag.lc {
+    background-position: center 23.0638%
+}
+
+.flag.pm {
+    background-position: center 23.2855%
+}
+
+.flag.vc {
+    background-position: center 23.5072%
+}
+
+.flag.sx, .flag.xm {
+    background-position: left 23.732%
+}
+
+.flag.tt {
+    background-position: center 23.9506%
+}
+
+.flag.tc {
+    background-position: center 24.1723%
+}
+
+.flag.us {
+    background-position: center 24.392%
+}
+
+.flag.vi {
+    background-position: center 24.6157%
+}
+
+.flag.uy {
+    background-position: left 24.8374%
+}
+
+.flag.ve {
+    background-position: center 25.0591%
+}
+
+.flag.ab {
+    background-position: center 25.279%
+}
+
+.flag.af {
+    background-position: center 25.5025%
+}
+
+.flag.az {
+    background-position: center 25.7242%
+}
+
+.flag.bd {
+    background-position: center 25.9459%
+}
+
+.flag.bt {
+    background-position: center 26.1676%
+}
+
+.flag.bn {
+    background-position: center 26.3885%
+}
+
+.flag.kh {
+    background-position: center 26.611%
+}
+
+.flag.cn {
+    background-position: left 26.8327%
+}
+
+.flag.ge {
+    background-position: center 27.0544%
+}
+
+.flag.hk {
+    background-position: center 27.2761%
+}
+
+.flag.in {
+    background-position: center 27.4978%
+}
+
+.flag.id {
+    background-position: center 27.7195%
+}
+
+.flag.jp {
+    background-position: center 27.9412%
+}
+
+.flag.kz {
+    background-position: center 28.1615%
+}
+
+.flag.la {
+    background-position: center 28.3846%
+}
+
+.flag.mo {
+    background-position: center 28.6063%
+}
+
+.flag.my {
+    background-position: center 28.829%
+}
+
+.flag.mv {
+    background-position: center 29.0497%
+}
+
+.flag.mn {
+    background-position: left 29.2714%
+}
+
+.flag.mm {
+    background-position: center 29.4931%
+}
+
+.flag.np {
+    background-position: left 29.7148%
+}
+
+.flag.kp {
+    background-position: left 29.9365%
+}
+
+.flag.mp {
+    background-position: center 30.1582%
+}
+
+.flag.pw {
+    background-position: center 30.3799%
+}
+
+.flag.pg {
+    background-position: center 30.6016%
+}
+
+.flag.ph {
+    background-position: left 30.8233%
+}
+
+.flag.sg {
+    background-position: left 31.045%
+}
+
+.flag.kr {
+    background-position: center 31.2667%
+}
+
+.flag.lk {
+    background-position: right 31.4884%
+}
+
+.flag.tw {
+    background-position: left 31.7101%
+}
+
+.flag.tj {
+    background-position: center 31.9318%
+}
+
+.flag.th {
+    background-position: center 32.1535%
+}
+
+.flag.tl {
+    background-position: left 32.3752%
+}
+
+.flag.tm {
+    background-position: center 32.5969%
+}
+
+.flag.vn {
+    background-position: center 32.8186%
+}
+
+.flag.ax {
+    background-position: center 33.0403%
+}
+
+.flag.al {
+    background-position: center 33.25975%
+}
+
+.flag.ad {
+    background-position: center 33.4837%
+}
+
+.flag.am {
+    background-position: center 33.7054%
+}
+
+.flag.at {
+    background-position: center 33.9271%
+}
+
+.flag.by {
+    background-position: left 34.1488%
+}
+
+.flag.be {
+    background-position: center 34.3705%
+}
+
+.flag.ba {
+    background-position: center 34.5922%
+}
+
+.flag.bg {
+    background-position: center 34.8139%
+}
+
+.flag.hr {
+    background-position: center 35.0356%
+}
+
+.flag.cy {
+    background-position: center 35.2555%
+}
+
+.flag.cz {
+    background-position: left 35.479%
+}
+
+.flag.dk {
+    background-position: center 35.7007%
+}
+
+.flag.ee {
+    background-position: center 35.9224%
+}
+
+.flag.fo {
+    background-position: center 36.1441%
+}
+
+.flag.fi {
+    background-position: center 36.3658%
+}
+
+.flag.fr {
+    background-position: center 36.5875%
+}
+
+.flag.de {
+    background-position: center 36.8092%
+}
+
+.flag.gi {
+    background-position: center 37.0309%
+}
+
+.flag.gr {
+    background-position: left 37.2526%
+}
+
+.flag.gg {
+    background-position: center 37.4743%
+}
+
+.flag.hu {
+    background-position: center 37.696%
+}
+
+.flag.is {
+    background-position: center 37.9177%
+}
+
+.flag.ie {
+    background-position: center 38.1394%
+}
+
+.flag.im {
+    background-position: center 38.3611%
+}
+
+.flag.it {
+    background-position: center 38.5828%
+}
+
+.flag.je {
+    background-position: center 38.8045%
+}
+
+.flag.xk {
+    background-position: center 39.0262%
+}
+
+.flag.lv {
+    background-position: center 39.2479%
+}
+
+.flag.li {
+    background-position: left 39.4696%
+}
+
+.flag.lt {
+    background-position: center 39.6913%
+}
+
+.flag.lu {
+    background-position: center 39.913%
+}
+
+.flag.mt {
+    background-position: left 40.1347%
+}
+
+.flag.md {
+    background-position: center 40.3564%
+}
+
+.flag.mc {
+    background-position: center 40.5781%
+}
+
+.flag.me {
+    background-position: center 40.7998%
+}
+
+.flag.nl {
+    background-position: center 41.0215%
+}
+
+.flag.mk {
+    background-position: center 41.2432%
+}
+
+.flag.no {
+    background-position: center 41.4649%
+}
+
+.flag.pl {
+    background-position: center 41.6866%
+}
+
+.flag.pt {
+    background-position: center 41.9083%
+}
+
+.flag.ro {
+    background-position: center 42.13%
+}
+
+.flag.ru {
+    background-position: center 42.3517%
+}
+
+.flag.sm {
+    background-position: center 42.5734%
+}
+
+.flag.rs {
+    background-position: center 42.7951%
+}
+
+.flag.sk {
+    background-position: center 43.0168%
+}
+
+.flag.si {
+    background-position: center 43.2385%
+}
+
+.flag.es {
+    background-position: left 43.4602%
+}
+
+.flag.se {
+    background-position: center 43.6819%
+}
+
+.flag.ch {
+    background-position: center 43.9036%
+}
+
+.flag.tr {
+    background-position: center 44.1253%
+}
+
+.flag.ua {
+    background-position: center 44.347%
+}
+
+.flag.gb {
+    background-position: center 44.5687%
+}
+
+.flag.va {
+    background-position: right 44.7904%
+}
+
+.flag.bh {
+    background-position: center 45.0121%
+}
+
+.flag.ir {
+    background-position: center 45.2338%
+}
+
+.flag.iq {
+    background-position: center 45.4555%
+}
+
+.flag.il {
+    background-position: center 45.6772%
+}
+
+.flag.kw {
+    background-position: left 45.897%
+}
+
+.flag.jo {
+    background-position: left 46.1206%
+}
+
+.flag.kg {
+    background-position: center 46.3423%
+}
+
+.flag.lb {
+    background-position: center 46.561%
+}
+
+.flag.om {
+    background-position: left 46.7857%
+}
+
+.flag.pk {
+    background-position: center 47.0074%
+}
+
+.flag.ps {
+    background-position: center 47.2291%
+}
+
+.flag.qa {
+    background-position: center 47.4508%
+}
+
+.flag.sa {
+    background-position: center 47.6725%
+}
+
+.flag.sy {
+    background-position: center 47.8942%
+}
+
+.flag.ae {
+    background-position: center 48.1159%
+}
+
+.flag.uz {
+    background-position: left 48.3376%
+}
+
+.flag.as {
+    background-position: right 48.5593%
+}
+
+.flag.au {
+    background-position: center 48.781%
+}
+
+.flag.cx {
+    background-position: center 49.002%
+}
+
+.flag.cc {
+    background-position: center 49.2244%
+}
+
+.flag.ck {
+    background-position: center 49.4445%
+}
+
+.flag.fj {
+    background-position: center 49.6678%
+}
+
+.flag.pf {
+    background-position: center 49.8895%
+}
+
+.flag.gu {
+    background-position: center 50.1112%
+}
+
+.flag.ki {
+    background-position: center 50.3329%
+}
+
+.flag.mh {
+    background-position: left 50.5546%
+}
+
+.flag.fm {
+    background-position: center 50.7763%
+}
+
+.flag.nc {
+    background-position: center 50.998%
+}
+
+.flag.nz {
+    background-position: center 51.2197%
+}
+
+.flag.nr {
+    background-position: left 51.4414%
+}
+
+.flag.nu {
+    background-position: center 51.6631%
+}
+
+.flag.nf {
+    background-position: center 51.8848%
+}
+
+.flag.ws {
+    background-position: left 52.1065%
+}
+
+.flag.sb {
+    background-position: left 52.3282%
+}
+
+.flag.tk {
+    background-position: center 52.5499%
+}
+
+.flag.to {
+    background-position: left 52.7716%
+}
+
+.flag.tv {
+    background-position: center 52.9933%
+}
+
+.flag.vu {
+    background-position: left 53.215%
+}
+
+.flag.wf {
+    background-position: center 53.4385%
+}
+
+.flag.ff-sm {
+    width: 18px;
+    height: 11px
+}
+
+.flag.ff-md {
+    width: 27px;
+    height: 17px
+}
+
+.flag.ff-lg {
+    width: 42px;
+    height: 27px
+}
+
+.flag.ff-xl {
+    width: 60px;
+    height: 37px
+}
+
+:root {
+    --grey-80: #333333;
+    --grey-60: #666666;
+    --grey-45: #8c8c8c;
+    --grey-20: #cccccc;
+    --grey-05: #f2f2f2;
+    --primary-white: #ffffff;
+    --br-4: .25rem;
+    --web-black: rgba(0, 0, 0, 0.90);
+    --dhl-red: #d40511;
+    --post-yellow: #ffcc00;
+    --delivery: Delivery, Verdana, sans-serif;
+    background-color: var(--primary-white);
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--delivery);
+    color: var(--web-black);
+}
+
+.splash-page {
+    width: 100%;
+}
+
+.splash-page__header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+    height: 3rem;
+    background: var(--post-yellow);
+}
+
+.splash-page__header__dhllogo {
+    width: 7rem;
+}
+
+.splash-page__teaser {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey-05);
+}
+
+.splash-page__carousel {
+    width: 100%;
+    height: 26.25rem;
+    max-height: 26.25rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.splash-page__carousel .cmp-teaser {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 6rem);
+    top: 0;
+}
+
+.splash-page__carousel .cmp-teaser__content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 1rem;
+    color: var(--primary-white);
+    z-index: 1;
+}
+
+.splash-page__carousel .cmp-teaser__title, .splash-page__carousel .cmp-teaser__pretitle {
+    font-style: normal;
+    font-weight: 800;
+    font-stretch: condensed;
+    font-size: 1.875rem;
+    margin: 0;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.splash-page__carousel .cmp-teaser__title {
+    color: var(--post-yellow);
+}
+
+.splash-page__carousel .cmp-teaser__description p {
+    margin-block:0.5rem;}
+
+.splash-page__carousel .cmp-teaser__image {
+    mix-blend-mode: darken;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.splash-page__carousel .cmp-image {
+    width: 100%;
+    height: 100%;
+}
+
+.splash-page__carousel .cmp-image__image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.splash-page__carousel .cmp-teaser__image::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, #030B16 60%);
+    mix-blend-mode: darken;
+}
+
+.splash-page__form {
+    position: relative;
+    top: -7rem;
+    width: calc(100vw - 2rem);
+    padding: 1.5rem 1rem;
+    margin: 1rem 1rem -6rem 1rem;
+    font-size: 1.125rem;
+    background: var(--primary-white);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.20);
+    border-radius: var(--br-4);
+}
+
+.splash-page__form .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-block-start:1rem;}
+
+.splash-page__form .form-group .cmp-selectcountry {
+    flex-basis: 100%;
+}
+
+.splash-page__form button.cmp-form-button, .splash-page__form a.cmp-form-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    height: 2.875rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: var(--dhl-red, #d40511);
+    color: #fff;
+    border: none;
+    border-radius: var(--br-4, 4px);
+}
+
+.splash-page__form button.cmp-form-button.disabled, .splash-page__form a.cmp-form-button.disabled {
+    background-color: rgba(140, 140, 140, 0.45);
+    pointer-events: none;
+    cursor: default;
+}
+
+.cmp-selectcountry {
+    width: auto;
+    font-size: 1rem;
+    line-height: 1.375;
+    color: var(--grey-80, #333);
+}
+
+.cmp-selectcountry__selectbox {
+    padding: 14px 12px;
+    user-select: none;
+    -webkit-user-select: none;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 2.875em;
+    background-color: var(--primary-white, #fff);
+    cursor: pointer;
+    border: 1px solid var(--grey-20, #ccc);
+    border-radius: var(--br-4, 4px);
+}
+
+.cmp-selectcountry__selectbox::after {
+    content: '';
+    display: block;
+    flex-shrink: 0;
+    position: relative;
+    transform: rotate(225deg);
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid var(--grey-80, #333);
+    border-left: 2px solid var(--grey-80, #333);
+}
+
+.cmp-selectcountry__selected {
+    flex-grow: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cmp-selectcountry__placeholder {
+    color: var(--gray60, #666);
+}
+
+.cmp-selectcountry.active .cmp-selectcountry__selectbox::after {
+    top: 0.25em;
+    transform: rotate(45deg);
+}
+
+.cmp-selectcountry__dropdown {
+    padding: 24px 16px 0;
+    margin-block-start:8px;box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.25);
+    display: none;
+    position: absolute;
+    z-index: 999;
+    box-sizing: border-box;
+    width: auto;
+    background-color: var(--primary-white, #fff);
+    border: 1px solid var(--grey-20, #ccc);
+    border-radius: var(--br-4, 4px);
+}
+
+.cmp-selectcountry__search {
+    padding-block:13px;padding-inline:12px 46px;width: 100%;
+    height: 3.125em;
+    background: url(../v2024-resources/img/icons/search_grey45.svg) no-repeat right 12px center/1.5em 1.5em padding-box;
+    border: 1px solid var(--gray60, #666);
+    border-radius: var(--br-4, 4px);
+    font-size: 1em;
+    font-family: Delivery;
+    color: var(--grey-80, #333);
+}
+
+[dir='rtl'] .cmp-selectcountry__search {
+    background-position: left 12px center;
+}
+
+.cmp-selectcountry__search::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.cmp-selectcountry.active .cmp-selectcountry__dropdown {
+    display: block;
+}
+
+.cmp-selectcountry__options {
+    margin: 16px 0 0;
+    padding: 0 0 24px;
+    overflow-y: auto;
+    max-height: 300px;
+    cursor: pointer;
+}
+
+.cmp-selectcountry__option {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.cmp-selectcountry__option:not(:last-child) {
+    border-bottom: 1px solid var(--grey-20, #ccc);
+}
+
+.cmp-selectcountry__option:hover {
+    background-color: #f2f2f2;
+}
+
+.cmp-selectcountry__option.highlighted {
+    background-color: #5897fb;
+}
+
+.cmp-selectcountry__country .flag {
+    width: 1.875rem;
+    height: 1.375rem;
+    margin-inline-end:0.75rem;margin-inline-start:0.125rem;box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.10);
+}
+
+.splash-page__delivery-options {
+    background-color: var(--grey-05);
+    display: flex;
+    flex-direction: column;
+}
+
+.splash-page__delivery-options__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1.5rem 1rem 2.5rem 1rem;
+}
+
+.splash-page .title {
+    flex-basis: 100%;
+    flex-shrink: 0;
+}
+
+.splash-page .cmp-title h2 {
+    font-weight: 800;
+    font-stretch: condensed;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.splash-page .text {
+    text-align: center;
+}
+
+.splash-page__delivery-options .cmp-teaser {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.splash-page__delivery-options .cmp-teaser__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    border: 6px solid var(--grey-20);
+}
+
+.splash-page__delivery-options .cmp-teaser__image .cmp-image {
+    height: 70%;
+}
+
+.splash-page__delivery-options .cmp-teaser__image .cmp-image img {
+    height: 100%;
+}
+
+.splash-page__delivery-options .cmp-teaser__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.splash-page__delivery-options .cmp-teaser__content .cmp-teaser__title {
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    line-height: 1.375rem;
+    margin: 0;
+}
+
+.splash-page__delivery-options .cmp-teaser__content .cmp-teaser__description {
+    line-height: 22px;
+}
+
+.splash-page__delivery-options .cmp-teaser__content .cmp-teaser__description p {
+    margin: 0;
+}
+
+.splash-page__streamline-section {
+    padding: 2.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splash-page__streamline-section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splash-page__streamline-section__image {
+    padding: 1rem;
+}
+
+.splash-page__streamline-section__image img {
+    width: 100%;
+}
+
+.splash-page__streamline-section__content__list {
+    counter-reset: item;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.splash-page__streamline-section__content__list > li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-block-end:1rem;}
+
+.splash-page__streamline-section__content__list > li::before {
+    flex: 0 0 2.125rem;
+    content: counter(item) " ";
+    counter-increment: item;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.125rem;
+    height: 2.125rem;
+    border-radius: 50%;
+    background: var(--grey-45);
+    color: var(--primary-white);
+    font-weight: 700;
+    margin-inline-end:0.75rem;}
+
+.splash-page__streamline-section__content__list > li > span.sectiontitle {
+    flex: 1 0 0%;
+    font-weight: 700;
+}
+
+.splash-page__streamline-section__content__list ul {
+    padding-inline-start:3rem;padding-block-start:0.5rem;flex: 0 0 100%;
+}
+
+.splash-page__streamline-section__content__list ul li {
+    list-style: none;
+    padding-block-start:0.25rem;padding-block-end:0.25rem;padding-inline-start:1.125rem;position: relative;
+}
+
+.splash-page__streamline-section__content__list ul li:not(.list_note)::before {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    content: '';
+    background-color: var(--dhl-red);
+    left: 0;
+    top: 0.625rem;
+}
+
+[dir=rtl] .splash-page__streamline-section__content__list ul li:not(.list_note)::before {
+    right: 0;
+    left: unset;
+}
+
+.splash-page__streamline-section__content__list ul li.list_note {
+    padding-inline-start:0;padding-block-start:1rem;}
+
+.splash-page__streamline-section__content__list ul li.list_note p {
+    margin: 0;
+}
+
+.splash-page__footer {
+    color: var(--grey-60);
+    background-color: var(--grey-05);
+    padding: 1.5rem 1rem;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+}
+
+.splash-page__footer-branding {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.splash-page__footer img {
+    width: 112px;
+}
+
+.splash-page__footer .splash-page__footer-copyright p {
+    padding: 0;
+    margin: 0;
+}
+
+.splash-page__footer-links-list {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.5rem 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.splash-page__footer-links-list li {
+    flex: 1 1 40%;
+    list-style-type: none;
+}
+
+.splash-page__footer-links-list li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.splash-page__footer-copyright {
+    align-self: center;
+    padding-block-start:1rem;}
+
+.ot-sdk-show-settings {
+    cursor: pointer;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-header button.ot-close-icon {
+    top: unset;
+    margin: 0
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content.ot-pc-scrollbar {
+    bottom: 72px;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-sdk-row.ot-cat-grp {
+    margin-bottom: 10px;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-footer .ot-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 16px;
+    padding: 1rem;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-footer .ot-btn-container button {
+    margin: 0;
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+    .splash-page__header {
+        padding:1.375rem;
+        height: 4rem;
+    }
+
+    .splash-page__header__dhllogo {
+        width: 8.5rem;
+    }
+
+    .splash-page__carousel {
+        height: 350px;
+        max-height: 350px;
+    }
+
+    .splash-page__carousel .cmp-teaser__title, .splash-page__carousel .cmp-teaser__pretitle {
+        font-size: 3rem;
+        line-height: normal;
+    }
+
+    .splash-page__carousel .cmp-teaser__description p {
+        font-size: 1.125rem;
+    }
+
+    .splash-page__carousel .cmp-teaser__image::before {
+        opacity: 0.8;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 15%, #000 100%);
+    }
+
+    .splash-page__carousel .cmp-image__image {
+        transform: translate(0%,-9%);
+    }
+
+    .splash-page__form {
+        width: 37rem;
+        padding: 2rem;
+        margin: 1rem auto -6rem auto;
+    }
+
+    .splash-page__form p {
+        margin: 0;
+    }
+
+    .splash-page__form .form-group .cmp-selectcountry {
+        flex-basis: auto;
+        flex-grow: 1;
+    }
+
+    .splash-page__form button.cmp-form-button, .splash-page__form a.cmp-form-button {
+        flex-basis: 9.75rem;
+    }
+
+    .splash-page__delivery-options__container {
+        max-width: 75rem;
+        flex-direction: row;
+        margin: 0 auto;
+        padding-block-end:2.5rem;}
+
+    .splash-page .cmp-title h2 {
+        font-size: 2.5rem;
+        line-height: 4.25rem;
+    }
+
+    .splash-page__delivery-options .teaser {
+        width: 30%;
+    }
+
+    .splash-page__delivery-options .cmp-teaser {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .splash-page__delivery-options .cmp-teaser__image {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .splash-page__delivery-options .cmp-teaser__content {
+        align-items: center;
+    }
+
+    .splash-page__delivery-options .cmp-teaser__content .cmp-teaser__title {
+        text-align: center;
+    }
+
+    .splash-page__delivery-options .cmp-teaser__content .cmp-teaser__description p {
+        text-align: center;
+    }
+
+    .splash-page__streamline-section {
+        max-width: 75rem;
+        margin: 0 auto;
+    }
+
+    .splash-page__streamline-section__container {
+        flex-direction: row;
+        padding-block-start:2.5rem;gap: 2rem;
+    }
+
+    .splash-page__streamline-section__image, .splash-page__streamline-section__content {
+        flex: 0 1 50%;
+    }
+
+    .splash-page__footer {
+        font-size: 0.875rem;
+    }
+
+    .splash-page__footer-branding {
+        max-width: 1200px;
+        margin-inline:auto;}
+
+    .splash-page__footer-links-list li {
+        flex: 0 1 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+    .splash-page__carousel .cmp-teaser {
+        justify-content:center;
+    }
+
+    .splash-page__carousel .cmp-teaser__content {
+        align-items: flex-start;
+        width: 75rem;
+        max-width: 75rem;
+    }
+
+    .splash-page__carousel .cmp-teaser__title, .splash-page__carousel .cmp-teaser__pretitle, .splash-page__carousel .cmp-teaser__description {
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+}
