@@ -445,7 +445,9 @@ footer {
 
     .foot-useful-link li {
         margin-bottom: 10%;
-        margin-left: 10px;
+        /* margin-left: 30px; */
+      text-align: center;
+        list-style-type: none;
 
     }
 
