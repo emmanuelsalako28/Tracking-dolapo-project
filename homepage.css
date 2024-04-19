@@ -466,4 +466,23 @@ footer {
         padding: 10%;
         color: var(--white);
     }
+    .track-item {
+        text-align: center;
+    }
+    
+    #track-btn {
+        font-size: 10px;
+        padding: 10px;
+        border-color: var(--track-btn);
+        color: white;
+        width: 20%;
+        border-radius: 10px;
+        background-color: var(--track-btn);
+    }
+    
+    #fname {
+        height: 36px;
+        width: 50%;
+    }
+
 }
