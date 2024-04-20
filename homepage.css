@@ -8,6 +8,7 @@
     --butter: #EDF1CE;
     --post-yellow: #ffcc00;
     --track-btn: #D40511;
+    --wheat:#F5DEB3;
 
 }
 
@@ -44,7 +45,7 @@ body {
     padding: 20px 50px;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
-    border-color: var(--white);
+    border-color: var(--wheat);
 }
 
 .other-part {
@@ -239,7 +240,20 @@ footer {
     height: 36px;
     width: 20%;
 }
+.tracking-info{
+    display: flex;
+    justify-content: space-around;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid ;
+    border-color: var(--wheat);
+    border-radius: 10px;
+}
 
+#track-btn a{
+    color: var(--white);
+    list-style-type: none;
+    text-decoration: none;
+}
 @media screen and (max-width: 1000px) {
     * {
         padding: 0;
@@ -489,5 +503,30 @@ footer {
         height: 36px;
         width: 50%;
     }
-
+    .tracking-info{
+        display: flex;
+        flex-direction: column;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid ;
+        border-color: var(--wheat);
+        border-radius: 10px;
+    }
+    .shippers-info{
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-top: 10xpx;
+        padding-bottom: 10px;
+    }
+    .shippers-info h1{
+        text-align: center;
+    }
+    .receiver-info{
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-top: 10xpx;
+        padding-bottom: 10px;
+    }
+    .receiver-info h1{
+        text-align: center;
+    }
 }
