@@ -6,7 +6,7 @@
     --green: #98d1ca;
     --cyan: #6AC1D5;
     --butter: #EDF1CE;
-    --post-yellow: #ffcc00;
+    --post-yellow: #d81f47;
     --track-btn: #D40511;
     --wheat:#F5DEB3;
 
@@ -442,7 +442,7 @@ footer {
     }
 
     footer {
-        background-color: var(--post-yellow);
+        background-color: var(--shade-black);
         margin-top: 2rem;
         border-radius: 20px;
         display: flex;
