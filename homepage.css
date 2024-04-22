@@ -539,4 +539,13 @@ footer {
     .receiver-info h1{
         text-align: center;
     }
+
+    .tracking-infos{
+        display: flex;
+        flex-direction: column;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid ;
+        border-color: var(--wheat);
+        border-radius: 10px;
+    }
 }
