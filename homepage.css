@@ -254,6 +254,16 @@ footer {
     list-style-type: none;
     text-decoration: none;
 }
+
+.tracking-infos{
+    display: flex;
+    justify-content: space-around;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid ;
+    border-color: var(--wheat);
+    border-radius: 10px;
+    margin-top: 20px;
+}
 @media screen and (max-width: 1000px) {
     * {
         padding: 0;
