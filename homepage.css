@@ -155,6 +155,9 @@ body {
 
 .faster h1 {
     padding-left: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .speedy-delivery {
@@ -178,6 +181,9 @@ body {
     /* height: 100%; */
     margin-top: 10%;
     /* margin-left: 5%; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .special-right h2 {
@@ -212,7 +218,7 @@ body {
 
 .special-right button a:hover {
     color: var(--red);
-    background-color: white;
+    background-color: var(--cyan);
 }
 
 footer {
@@ -261,8 +267,31 @@ footer {
     border-style: solid ;
     border-color: var(--wheat);
     border-radius: 10px;
+    
 }
 
+.shippers-info h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--post-yellow);
+}
+.receiver-info h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--post-yellow);
+}
+.shippers-info p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.receiver-info p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 #track-btn a{
     color: var(--white);
     list-style-type: none;
