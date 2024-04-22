@@ -228,6 +228,9 @@ footer {
     color: white;
     justify-content: space-evenly;
     padding-bottom: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .foot-logo img {
@@ -240,6 +243,10 @@ footer {
     color: var(--red);
     font-size: 20px;
     margin-top: 5rem;
+}
+
+.foot-useful-link li{
+    list-style-type: none;
 }
 
 .track-item {
