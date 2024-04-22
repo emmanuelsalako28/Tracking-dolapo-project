@@ -181,19 +181,23 @@ body {
     /* height: 100%; */
     margin-top: 10%;
     /* margin-left: 5%; */
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+  
 }
 
 .special-right h2 {
     margin-top: 1rem;
     letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .special-right p {
     margin-top: 1rem;
     margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     /* letter-spacing: 2px; */
 }
 
@@ -204,6 +208,9 @@ body {
     background-color: var(--red);
     color: white;
     border-color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .special-right button a {
@@ -211,12 +218,12 @@ body {
     color: white;
 }
 
-.special-right button:hover {
+/* .special-right button:hover {
     background-color: white;
     color: var(--red);
-}
+} */
 
-.special-right button a:hover {
+.special-right button:hover {
     color: var(--red);
     background-color: var(--cyan);
 }
@@ -228,9 +235,7 @@ footer {
     color: white;
     justify-content: space-evenly;
     padding-bottom: 3rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+ 
 }
 
 .foot-logo img {
@@ -243,10 +248,18 @@ footer {
     color: var(--red);
     font-size: 20px;
     margin-top: 5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* text-align: center; */
 }
 
 .foot-useful-link li{
     list-style-type: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:justify;
 }
 
 .track-item {
